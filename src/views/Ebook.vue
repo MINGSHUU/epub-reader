@@ -3,6 +3,7 @@
         <title-bar
             :ifTitleAndMenuShow="ifTitleAndMenuShow"/>
         <div class="read-wrapper">
+            <div></div>
             <div id="read"></div>
             <div class="mask">
                 <div class="left" @click="prevPage"></div>
